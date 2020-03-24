@@ -5,8 +5,8 @@ import (
 	"fyne.io/fyne/app"
 	"fyne.io/fyne/layout"
 	"fyne.io/fyne/widget"
-	"github.com/cvila84/urlopen/pkg/fyne/icon"
-	customWidget "github.com/cvila84/urlopen/pkg/fyne/widget"
+	"github.com/cvila84/jirop/pkg/fyne/icon"
+	customWidget "github.com/cvila84/jirop/pkg/fyne/widget"
 	"os/exec"
 )
 
