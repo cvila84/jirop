@@ -1,6 +1,6 @@
 @echo off
-REM pkg/fyne/icon/jira.go is generated with fyne bundle jira.png > jira.go
-REM jirop.syso is generated with rcsc -icon jira.ico
+fyne bundle ..\assets\jira.png > ..\pkg\fyne\icon\jira.go
+rsrc -ico ..\assets\jira.ico -o ..\cmd\jirop\jirop.syso
 set CC=C:\Programs\Cygwin\bin\x86_64-w64-mingw32-gcc.exe
 pushd ..\cmd\jirop
 go install -ldflags -H=windowsgui
